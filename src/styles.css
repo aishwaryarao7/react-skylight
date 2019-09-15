@@ -1,0 +1,23 @@
+
+@media only screen and (max-width: 400px) {
+  .skylight-dialog {
+    bottom: 0;
+    width: 100%;
+    left: 20%;
+  }
+}
+
+.skylight-dialog {
+  width: 50%;
+  min-height: 400px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -25%;
+  background-color: #fff;
+  border-radius: 2px;
+  z-index: 100;
+  padding: 15px;
+  box-shadow: 0px 0px 4px rgba(0,0,0,.14),0px 4px 8px rgba(0,0,0,.28);
+}

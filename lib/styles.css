@@ -1,0 +1,8 @@
+
+@media only screen and (max-width: 400px) {
+  .skylight-dialog {
+    bottom: 0;
+    width: 100%;
+    left: 20%;
+  }
+}

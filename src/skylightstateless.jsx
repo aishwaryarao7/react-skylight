@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles';
 import assign from './utils/assign';
+import './styles.css';
 
 export default class SkyLightStateless extends React.Component {
 
