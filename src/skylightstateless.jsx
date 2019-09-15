@@ -40,7 +40,7 @@ export default class SkyLightStateless extends React.Component {
 
   closeButton = () => {
     if (!this.props.showCloseButton) {
-      return;
+      return null;
     }
     const mergeStyles = key => assign({}, styles[key], this.props[key]);
     const closeButtonStyle = mergeStyles('closeButtonStyle');
